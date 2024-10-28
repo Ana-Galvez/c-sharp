@@ -1,0 +1,16 @@
+C:\Users\Ana.EZEQUIEL\Desktop\proyecto1\bin\Debug\net5.0\proyecto1.exe
+C:\Users\Ana.EZEQUIEL\Desktop\proyecto1\bin\Debug\net5.0\proyecto1.deps.json
+C:\Users\Ana.EZEQUIEL\Desktop\proyecto1\bin\Debug\net5.0\proyecto1.runtimeconfig.json
+C:\Users\Ana.EZEQUIEL\Desktop\proyecto1\bin\Debug\net5.0\proyecto1.runtimeconfig.dev.json
+C:\Users\Ana.EZEQUIEL\Desktop\proyecto1\bin\Debug\net5.0\proyecto1.dll
+C:\Users\Ana.EZEQUIEL\Desktop\proyecto1\bin\Debug\net5.0\ref\proyecto1.dll
+C:\Users\Ana.EZEQUIEL\Desktop\proyecto1\bin\Debug\net5.0\proyecto1.pdb
+C:\Users\Ana.EZEQUIEL\Desktop\proyecto1\obj\Debug\net5.0\proyecto1.csproj.AssemblyReference.cache
+C:\Users\Ana.EZEQUIEL\Desktop\proyecto1\obj\Debug\net5.0\proyecto1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ana.EZEQUIEL\Desktop\proyecto1\obj\Debug\net5.0\proyecto1.AssemblyInfoInputs.cache
+C:\Users\Ana.EZEQUIEL\Desktop\proyecto1\obj\Debug\net5.0\proyecto1.AssemblyInfo.cs
+C:\Users\Ana.EZEQUIEL\Desktop\proyecto1\obj\Debug\net5.0\proyecto1.csproj.CoreCompileInputs.cache
+C:\Users\Ana.EZEQUIEL\Desktop\proyecto1\obj\Debug\net5.0\proyecto1.dll
+C:\Users\Ana.EZEQUIEL\Desktop\proyecto1\obj\Debug\net5.0\ref\proyecto1.dll
+C:\Users\Ana.EZEQUIEL\Desktop\proyecto1\obj\Debug\net5.0\proyecto1.pdb
+C:\Users\Ana.EZEQUIEL\Desktop\proyecto1\obj\Debug\net5.0\proyecto1.genruntimeconfig.cache
