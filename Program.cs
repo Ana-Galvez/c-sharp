@@ -1,6 +1,6 @@
 ﻿using System;
 
-bool isOld= true;
+bool isOld=true;
 string myName="Ana Galvez";
 char aLetter='a';
 double number2= 22.232;
@@ -23,3 +23,11 @@ Console.WriteLine("El número ingresado es: "+ number1);
 Console.WriteLine($"El número {number1} + 3 es: {number1 + 3}"); // traspolación
 Console.WriteLine("---------------");
 Console.WriteLine("Hello World!");
+
+if (number1 >= 18)
+{
+    Console.WriteLine("This person is old");
+}else
+{
+    Console.WriteLine("This person isn't old");
+}
