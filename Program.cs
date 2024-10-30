@@ -32,22 +32,60 @@
 //     Console.WriteLine("This person isn't old");
 // }
 //FizzBuzz
-for (int i = 1; i < 100;i++)
+// for (int i = 1; i < 100;i++)
+// {
+//     if (i%3==0 && i%5==0)
+//     {
+//         Console.WriteLine("fizz-buzz");
+//     }
+//     else if (i%3==0)
+//     {
+//         Console.WriteLine("fizz");
+//     }
+//     else if (i%5==0)
+//     {
+//         Console.WriteLine("buzz");
+//     }
+//     else
+//     {
+//         Console.WriteLine(i);
+//     }
+// }
+// Crea una única función (importante que sólo sea una) que sea capaz de calcular y retornar el área de un polígono.
+//  La función recibirá por parámetro sólo UN polígono a la vez.Los polígonos soportados serán Triángulo, Cuadrado y Rectángulo.
+//  Imprime el cálculo del área de un polígono de cada tipo.
+// area de un triángulo: (base * altura) / 2
+// area de un cuadrado: lado * lado
+// polígono de un rectángulo: largo * ancho
+
+static double AreaPoligono(string tipoPoligono)
 {
-    if (i%3==0 && i%5==0)
+    double result;
+    switch (tipoPoligono)
     {
-        Console.WriteLine("fizz-buzz");
+        case "Triangulo":
+            Console.WriteLine("Escriba la base");
+            double baset= Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("Escriba la altura");
+            double alturat= Convert.ToDouble(Console.ReadLine());
+            return result=(baset*alturat)/2;
+        case "Cuadrado":
+            Console.WriteLine("Escriba el lado del cuadrado");
+            double ladoC= Convert.ToDouble(Console.ReadLine());
+            return result=ladoC*ladoC;
+        case "Rectangulo":
+            Console.WriteLine("Escriba el largo del rectángulo");
+            double largoR= Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("Escriba el ancho del rectángulo");
+            double anchoR= Convert.ToDouble(Console.ReadLine());  
+            return result=largoR*anchoR;
+        default:
+            Console.WriteLine("Polígono incorrecto");
+            break;
     }
-    else if (i%3==0)
-    {
-        Console.WriteLine("fizz");
-    }
-    else if (i%5==0)
-    {
-        Console.WriteLine("buzz");
-    }
-    else
-    {
-        Console.WriteLine(i);
-    }
+    return result=1;
 }
+
+Console.WriteLine("Ingrese que polígono desea saber su área: Triángulo,Cuadrado,Rectángulo");
+string poligono=Console.ReadLine();
+Console.WriteLine(AreaPoligono(poligono));
