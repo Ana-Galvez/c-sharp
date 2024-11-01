@@ -58,34 +58,51 @@
 // area de un cuadrado: lado * lado
 // polígono de un rectángulo: largo * ancho
 
-static double AreaPoligono(string tipoPoligono)
-{
-    double result;
-    switch (tipoPoligono)
-    {
-        case "Triangulo":
-            Console.WriteLine("Escriba la base");
-            double baset= Convert.ToDouble(Console.ReadLine());
-            Console.WriteLine("Escriba la altura");
-            double alturat= Convert.ToDouble(Console.ReadLine());
-            return result=(baset*alturat)/2;
-        case "Cuadrado":
-            Console.WriteLine("Escriba el lado del cuadrado");
-            double ladoC= Convert.ToDouble(Console.ReadLine());
-            return result=ladoC*ladoC;
-        case "Rectangulo":
-            Console.WriteLine("Escriba el largo del rectángulo");
-            double largoR= Convert.ToDouble(Console.ReadLine());
-            Console.WriteLine("Escriba el ancho del rectángulo");
-            double anchoR= Convert.ToDouble(Console.ReadLine());  
-            return result=largoR*anchoR;
-        default:
-            Console.WriteLine("Polígono incorrecto");
-            break;
-    }
-    return result=1;
-}
+// static double AreaPoligono(string tipoPoligono)
+// {
+//     double result;
+//     switch (tipoPoligono)
+//     {
+//         case "Triangulo":
+//             Console.WriteLine("Escriba la base");
+//             double baset= Convert.ToDouble(Console.ReadLine());
+//             Console.WriteLine("Escriba la altura");
+//             double alturat= Convert.ToDouble(Console.ReadLine());
+//             return result=(baset*alturat)/2;
+//         case "Cuadrado":
+//             Console.WriteLine("Escriba el lado del cuadrado");
+//             double ladoC= Convert.ToDouble(Console.ReadLine());
+//             return result=ladoC*ladoC;
+//         case "Rectangulo":
+//             Console.WriteLine("Escriba el largo del rectángulo");
+//             double largoR= Convert.ToDouble(Console.ReadLine());
+//             Console.WriteLine("Escriba el ancho del rectángulo");
+//             double anchoR= Convert.ToDouble(Console.ReadLine());  
+//             return result=largoR*anchoR;
+//         default:
+//             Console.WriteLine("Polígono incorrecto");
+//             break;
+//     }
+//     return result=1;
+// }
 
-Console.WriteLine("Ingrese que polígono desea saber su área: Triángulo,Cuadrado,Rectángulo");
-string poligono=Console.ReadLine();
-Console.WriteLine(AreaPoligono(poligono));
+// Console.WriteLine("Ingrese que polígono desea saber su área: Triángulo,Cuadrado,Rectángulo");
+// string poligono=Console.ReadLine();
+// Console.WriteLine(AreaPoligono(poligono));
+
+//  Crea un programa que invierta el orden de una cadena de texto
+//  sin usar funciones propias del lenguaje que lo hagan de forma automática.
+//  Si le pasamos "Hola mundo" nos retornaría "odnum aloH"
+
+static string invertirCadena(string cadena)
+{
+    int longitud=cadena.Length;
+    string reverso="";
+    foreach (char letra in cadena)
+    {
+        reverso= letra + reverso;
+    }
+    return reverso;
+}
+string cadena="hola como estas";
+Console.WriteLine(invertirCadena(cadena));
