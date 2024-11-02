@@ -110,15 +110,30 @@
 //Crea un programa se encargue de transformar un número
 //decimal a binario sin utilizar funciones propias del lenguaje que lo hagan directamente.
 
-static string decABinario(int numero)
-{
-    string binario="";
-    while (numero > 0)
-    {
-        binario=$"{numero%2}{binario}";
-        numero = numero / 2;
+// static string decABinario(int numero)
+// {
+//     string binario="";
+//     while (numero > 0)
+//     {
+//         binario=$"{numero%2}{binario}";
+//         numero = numero / 2;
         
-    }
-    return binario;
-}
-Console.WriteLine(decABinario(23519));
+//     }
+//     return binario;
+// }
+// Console.WriteLine(decABinario(23519));
+
+
+
+// static string invertirCadena(string cadena)
+// {
+//     string cadenaInv="";
+//     for(int i=cadena.Length-1;i>=0;i--)
+//     {
+//         cadenaInv+=cadena[i];
+//     }
+    
+//     return cadenaInv;
+// }
+// string cadena="hola como estas";
+// Console.WriteLine(invertirCadena(cadena));
