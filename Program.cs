@@ -125,18 +125,18 @@ Console.WriteLine(decABinario(23519));
 
 
 
-static string invertirCadena(string cadena)
+static string invertirCadena1(string cadena1)
 {
     string cadenaInv="";
-    for(int i=cadena.Length-1;i>=0;i--)
+    for(int i=cadena1.Length-1;i>=0;i--)
     {
-        cadenaInv+=cadena[i];
+        cadenaInv+=cadena1[i];
     }
 
     return cadenaInv;
 }
-string cadena="hola como estas";
-Console.WriteLine(invertirCadena(cadena));
+string cadena1="hola como estas";
+Console.WriteLine(invertirCadena1(cadena1));
 
 // Crea una función que reciba dos cadenas como parámetro (str1, str2)
 // e imprima otras dos cadenas como salida (out1, out2).
