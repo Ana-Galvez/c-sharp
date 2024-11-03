@@ -1,0 +1,15 @@
+C:\Users\Ana\Desktop\c sharp\proyecto1\bin\Debug\net8.0\proyecto1.exe
+C:\Users\Ana\Desktop\c sharp\proyecto1\bin\Debug\net8.0\proyecto1.deps.json
+C:\Users\Ana\Desktop\c sharp\proyecto1\bin\Debug\net8.0\proyecto1.runtimeconfig.json
+C:\Users\Ana\Desktop\c sharp\proyecto1\bin\Debug\net8.0\proyecto1.dll
+C:\Users\Ana\Desktop\c sharp\proyecto1\bin\Debug\net8.0\proyecto1.pdb
+C:\Users\Ana\Desktop\c sharp\proyecto1\obj\Debug\net8.0\proyecto1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ana\Desktop\c sharp\proyecto1\obj\Debug\net8.0\proyecto1.AssemblyInfoInputs.cache
+C:\Users\Ana\Desktop\c sharp\proyecto1\obj\Debug\net8.0\proyecto1.AssemblyInfo.cs
+C:\Users\Ana\Desktop\c sharp\proyecto1\obj\Debug\net8.0\proyecto1.csproj.CoreCompileInputs.cache
+C:\Users\Ana\Desktop\c sharp\proyecto1\obj\Debug\net8.0\proyecto1.sourcelink.json
+C:\Users\Ana\Desktop\c sharp\proyecto1\obj\Debug\net8.0\proyecto1.dll
+C:\Users\Ana\Desktop\c sharp\proyecto1\obj\Debug\net8.0\refint\proyecto1.dll
+C:\Users\Ana\Desktop\c sharp\proyecto1\obj\Debug\net8.0\proyecto1.pdb
+C:\Users\Ana\Desktop\c sharp\proyecto1\obj\Debug\net8.0\proyecto1.genruntimeconfig.cache
+C:\Users\Ana\Desktop\c sharp\proyecto1\obj\Debug\net8.0\ref\proyecto1.dll

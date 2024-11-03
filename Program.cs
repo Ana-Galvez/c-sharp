@@ -121,7 +121,7 @@ static string decABinario(int numero)
     }
     return binario;
 }
-Console.WriteLine(decABinario(23519));
+Console.WriteLine(decABinario(8183));
 
 
 
@@ -170,3 +170,13 @@ string str1="hola ana como eta";
 string str2="holis anita que tal";
 
 caracteresDiferentes(str1,str2);
+
+static void division(int dividendo)
+{
+    double cociente=dividendo/2;
+    int resto=dividendo%2;
+    Console.WriteLine($"El cociente es: {cociente}");
+    Console.WriteLine($"El resto es: {resto}");
+}
+
+division(31);
