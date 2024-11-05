@@ -171,12 +171,12 @@ string str2="holis anita que tal";
 
 caracteresDiferentes(str1,str2);
 
-static void division(int dividendo)
+static void division(int dividendo,int divisor)
 {
-    double cociente=dividendo/2;
-    int resto=dividendo%2;
+    double cociente=dividendo/divisor;
+    int resto=dividendo%divisor;
     Console.WriteLine($"El cociente es: {cociente}");
     Console.WriteLine($"El resto es: {resto}");
 }
 
-division(31);
+division(83,16);
